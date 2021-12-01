@@ -12,7 +12,7 @@
 body {
     display: grid;
     grid-template-columns: 6fr 6fr;
-    grid-template-rows: 1fr 700px 80px;
+    grid-template-rows: 1fr 500px 80px;
     grid-template-areas: 'header      header'
                          'mainContent mainContent'
                          'footer      footer';
@@ -20,7 +20,7 @@ body {
     text-align: center;
     height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     background-image: url(https://image.shutterstock.com/image-photo/concept-barber-stylish-vintage-shop-260nw-1564378435.jpg);
 }
@@ -45,20 +45,16 @@ form {
     transform: translate(5%,-10%);
 }
 
-.title {
-    transform: translate(5%,-80%);
-    font-style:italic
-}
 
 
-.reserva {
+.cuenta {
     color: rgb(255, 255, 255);
     font-size: 6.5rem;
     transform: translateY(225%);
     text-shadow: black 5px 5px;
     text-decoration: underline;
     font-style: italic;
-
+    transform: translate(-0%, 200%);
 }
 
 .controls {
@@ -68,7 +64,7 @@ form {
     border: 2px solid;
     font-size: 1.8rem;
     border-radius: 10px;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 20px);
 }
 
 .login {
@@ -86,11 +82,10 @@ footer {
     font-size: 3.8rem;
     text-align:center;
     background-color: black;
-
 }
 
 .footer {
-    margin:28px;
+    margin: 28px;
 }
 
 nav {
@@ -148,10 +143,6 @@ h1 {
     font-size: 4.5rem;
     font-style: italic;
     text-shadow: black 5px 3px;
-}
-
-.footer {
-    margin:28px;
 }
 
 .promos {

@@ -4,16 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tareas</title>
-    <link rel="stylesheet" href="/tareasFronend/style/juegos.css">
+    <title>Campeonato de Juegos</title>
+    <link rel="stylesheet" href="/style/juegos.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
+    <header>
+        <div class="logo">💈</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/nosotros.html">Nosotros</a></li>
+                <li><a href="/servicios.html">Servicios</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+                <li><a href="/reservas.html">Reservas</a></li>
+                <li><a href="/login.html">Mi Cuenta</a></li>
+                <li><a class="promos" href="/promos.html">⚠ Promos ⚠</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h1>Campeonato de Juegos!!</h1>
-        
-        <form action="javascript:void(0);">
+        <h1 class="juegos">Campeonato de Juegos!!</h1>
+        <form class="controls" action="javascript:void(0);">
             <input id="nombre" type="text" name="nombre" placeholder="Nombre del Jugador">
             <select name="juego" id="juego">
                 <option value="" disabled selected>Juego</option>
@@ -21,14 +33,23 @@
                 <option value="pool">Pool</option>
                 <option value="ping-pong">Ping-Pong</option>
             </select>
-            <button id="agregar">Inscribite</button>
+            <button class="inscribite" id="agregar">Inscribite</button>
         </form>
-        <h3>Inscriptos</h3>
+        <h1 class="inscriptos">Inscriptos</h1>
         <ul id="lista-inscriptos">
         </ul>
-        
     </main>
+    <footer><p class="footer">
+        Copyright © Todos los derechos reservados 2021 Yonatan Lauriano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
 
+        <a href="mailto:yona.lauriano@gmail.com"><img src= "https://cdn-icons-png.flaticon.com/512/281/281769.png" style="width: 25px;height: 20px;"></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/yonatan.lauriano/" target="_blank">
+        <img src= "https://cdn-icons-png.flaticon.com/512/174/174848.png" style="width: 25px;height: 20px;"></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://api.whatsapp.com/send?phone=59894996017" target="_blank"><img src="/imgusadas/wsp.png" style="width: 25px;height: 20px;"></a>
+        </p>
+    </footer>
     <script src="juegos.js"></script>
 </body>
 </html>

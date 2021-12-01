@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    background-image: url(/tareasFronend/imgusadas/hombre-guapo-peluqueria-peinado_1303-20978.jpg);
+    background-image: url(/imgusadas/hombre-guapo-peluqueria-peinado_1303-20978.jpg);
 }
 
 
@@ -45,8 +45,8 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(17, 0, 255);
-    border-radius: 15px;
+    background-color: blueviolet;
+    border-radius: 25px;
 }
 
 .logo {
